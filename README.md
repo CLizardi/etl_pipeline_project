@@ -1,5 +1,5 @@
 # ETL Pipeline Project for UK Food Standards Agency Ratings Data
-![craiyon_214420_data](https://user-images.githubusercontent.com/52866379/227403262-c10415f8-4965-49b0-93df-29527c5ed33e.png)
+![may-gauthier-RkRbL1Exqwc-unsplash](https://github.com/CLizardi/etl_pipeline_project/assets/52866379/64414e83-dda6-4d75-8f4f-875a25b8ca74)
 
 # Introduction:
 This ETL Pipeline project was completed as a part of a challenge to evaluate the food hygiene rating data collected by the UK Food Standards Agency. The goal of the project was to assist food magazine editors in identifying establishments for future articles. The project involved three main parts: setting up the database and Jupyter Notebook, updating the database by adding new data, removing unwanted data, and cleaning up existing data, and conducting exploratory analysis to answer specific questions related to the data.

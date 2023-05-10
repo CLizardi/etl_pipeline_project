@@ -1,11 +1,20 @@
-# Introduction
-Welcome to my ETL Pipeline Project Readme! This project is a demonstration of my skills in data wrangling, cleaning, and transforming. The goal of this project was to create an ETL (Extract, Transform, Load) pipeline to prepare a dataset for analysis. The dataset used in this project contains information about video games sales from various regions of the world.
-
-In this project, I extracted data from two separate CSV files, cleaned and transformed the data, and loaded the data into a PostgreSQL database. I used Python and its libraries Pandas and Psycopg2 to complete the project.
-
-# What I learned
-During this project, I learned how to effectively clean and transform data using Pandas. I also learned how to use SQL commands to create tables and insert data into a PostgreSQL database. Additionally, I learned how to work with two separate datasets and join them together based on common columns.
-
-Overall, this project allowed me to showcase my data wrangling and data analysis skills. It also demonstrated my ability to work with SQL databases and connect them with Python. Thank you for taking the time to review my project!
-
+# ETL Pipeline Project for UK Food Standards Agency Ratings Data
 ![craiyon_214420_data](https://user-images.githubusercontent.com/52866379/227403262-c10415f8-4965-49b0-93df-29527c5ed33e.png)
+
+# Introduction:
+This ETL Pipeline project was completed as a part of a challenge to evaluate the food hygiene rating data collected by the UK Food Standards Agency. The goal of the project was to assist food magazine editors in identifying establishments for future articles. The project involved three main parts: setting up the database and Jupyter Notebook, updating the database by adding new data, removing unwanted data, and cleaning up existing data, and conducting exploratory analysis to answer specific questions related to the data.
+
+# Project Overview:
+The project began by setting up the database and Jupyter Notebook using the PyMongo and Pretty Print libraries. The data was imported from the establishments.json file into the uk_food database and the establishments collection. The data was then modified by adding a new restaurant, updating the BusinessTypeID, removing establishments within the Dover Local Authority, and converting certain string values to decimal or integer values. Finally, exploratory analysis was conducted to answer specific questions about the data, including identifying establishments with a hygiene score of 20, identifying establishments in London with a rating value of 4 or higher, identifying the top 5 establishments with a rating value of 5 and sorted by lowest hygiene score, nearest to the new restaurant added, and identifying the number of establishments with a hygiene score of 0 in each local authority area, sorted by count.
+
+# What I Did:
+I followed the instructions provided and completed the ETL Pipeline project. Specifically, I imported data from the establishments.json file into the uk_food database and the establishments collection. I modified the data by adding a new restaurant, updating the BusinessTypeID, removing establishments within the Dover Local Authority, and converting certain string values to decimal or integer values. Finally, I conducted exploratory analysis to answer specific questions about the data.
+
+# Tools Used:
+For this project, I used PyMongo and Pretty Print libraries to set up the database and Jupyter Notebook, and to manipulate the data. I also used Pandas and Matplotlib libraries for data visualization and analysis.
+
+# What I Learned:
+This project provided an opportunity to work with NoSQL databases, specifically MongoDB. I learned how to import data into a database, modify it, and retrieve specific information. I also learned how to use PyMongo and Pretty Print libraries to manipulate data, Pandas and Matplotlib libraries for data visualization and analysis, and Jupyter Notebook for documentation and presentation. Finally, I learned how to write clear and concise comments to make my code more understandable to other developers.
+
+# Conclusion:
+In conclusion, this ETL Pipeline project provided a comprehensive understanding of working with NoSQL databases, specifically MongoDB. The project involved importing data, modifying it, and conducting exploratory analysis to answer specific questions. The project helped in gaining experience with various tools and libraries such as PyMongo, Pretty Print, Pandas, Matplotlib, and Jupyter Notebook. The project also helped in enhancing commenting skills to make the code more readable and understandable for other developers.
